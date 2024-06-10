@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.clock {
+    font-size: 64px;
+    font-weight: bold;
+    color: #333;
+}
+
+.clock span {
+    margin: 0 10px;
+}
+
+#hour {
+    color: #0099ff;
+}
+
+#minute {
+    color: #66cc00;
+}
+
+#second {
+    color: #ff9900;
+}
